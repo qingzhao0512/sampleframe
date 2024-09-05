@@ -2,7 +2,7 @@
 Author: qingzhao0512 qingzhao0512@gmail.com
 Date: 2024-09-05 11:52:21
 LastEditors: qingzhao0512 qingzhao0512@gmail.com
-LastEditTime: 2024-09-05 15:39:06
+LastEditTime: 2024-09-05 15:57:01
 FilePath: \sampleframe\shenzhen.py
 Description: 深圳民营诊所+抽样框爬取
 '''
@@ -11,7 +11,7 @@ import requests
 import pandas as pd
 import json
 import os
-import pandas
+
 
 # 设置高德API信息
 api_key = os.getenv('uspcpm_gaode_apikey')  # 使用环境变量 uspcpm_gaode_apikey
