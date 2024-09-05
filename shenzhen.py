@@ -11,6 +11,7 @@ import requests
 import pandas as pd
 import json
 import os
+import pandas
 
 # 设置高德API信息
 api_key = os.getenv('uspcpm_gaode_apikey')  # 使用环境变量 uspcpm_gaode_apikey
